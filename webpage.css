@@ -1,0 +1,389 @@
+body	{
+	background-image:url("images/bg.jpg");
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	font-family:"Helvetica";	
+	
+	}
+	
+#header-wrapper{
+	width:1000px;
+	height:auto;
+	margin:auto;
+	background-color:white;
+	}
+
+#header{
+	background-color:white;
+	background-image:url("header-banner.jpg");
+	background-repeat:no-repeat;
+	width:1000px;
+	height:100px;
+	font:Century Gothic;
+	float:left;
+	}
+
+h1 {font-family:"Century Gothic";
+	color:#333333;
+	text-shadow:0px 1px 1px;
+	text-shadow:#FFFFFF;
+	float:left;
+	text-indent:10px;
+	}
+
+h3 {font-family:"Century Gothic";
+	color:#3d5a80;
+	text-indent:10px;
+	margin-bottom:5px;
+	}
+
+
+h4 {font-family:"Century Gothic";
+	color:#3d5a80;
+	text-indent:10px;
+	margin-bottom:5px;
+	}
+	
+
+#page-wrapper{
+	width:1000px;
+	height:auto;
+	margin:auto;
+	background-color:#FFFFFF;
+	}
+	
+	
+#title{
+	padding:10px;
+	}
+
+#nav {
+	width:1000px;
+	height:25px;
+	font-family:Century Gothic;
+	border: solid 1px  #98c1d9;
+	float:left;
+	font-size:12px;
+	}
+	
+#content {
+	width:1000px;
+	height:auto;
+	border-style:solid 1px;
+	border-color:white;
+	font:Century Gothic;
+	background-color:white;
+	float:left;
+	}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow:hidden;
+  background-color:#3d5a80;
+}
+
+li {
+	float:left;
+	border-right:1px solid #bbb;
+	}
+	
+li:last-child{
+border-right:none;
+}
+
+li a {
+  display: block;
+  color:white;
+  text-align:center;
+  padding: 5px 5px;
+  text-decoration:none;
+}
+
+
+li a:hover {
+  background-color:#98c1d9;
+  color: white;
+}
+
+.active {
+	background-color:#000000;
+	}
+
+.title-line1{
+		border-color:#e0fbfc;
+		width:980px;
+		margin-left:10px;
+		float:left;
+		margin-bottom:5px;
+		margin-top:5px;
+}
+
+p {font-size:12px;
+	text-align:justify;
+	text-indent:5px;
+	}
+	
+
+#right-box{
+	float:left;
+	width:300px;
+	height:300px;
+	border:solid 2px #3d5a80;
+	margin-left:10px;
+	border-radius:10px;
+}
+
+
+
+#image-content {
+	float:left;
+	width:650px;
+	height:300px;
+	border:solid 1px white;
+	margin-left:10px;
+	}
+	
+#side-content {
+	float:left;
+	width:300px;
+	height:300px;
+	border:solid 1px #999999;
+	margin-left:10px;
+	}
+
+.img-content{
+	width:650px;
+	height:300px;
+	}
+
+.side-img{
+	width:147px;
+	height:96px;
+	float:left;
+	margin-left:2px;
+ 	margin-top:2px;
+	}
+	
+.recipe-image{
+	width:195px;
+	height:185px;
+	}
+
+
+.picture{
+	width:180px;
+	height:160px;
+	border-radius:50%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	}
+	
+#content2 {
+	width:1000px;
+	height:350px;
+	border-style:solid 1px;
+	border-color:white;
+	font:Century Gothic;
+	border-radius:5px;
+	margin-top:2px;
+	background-color: white;
+	float:left;
+	}
+	
+#recipe-box {
+	float:left;
+	width:200px;
+	height:270px;
+	border:solid 2px #ee6c4d;
+	margin-left:40px;
+	border-radius:8px;
+	}
+
+.recipe-name{
+	color:#000000;
+	text-align:center;
+	font-size:12px;
+	font-weight:bold;
+	}
+
+.button{
+	background-color:#ee6c4d;
+	color:white;
+	padding:8px 15px;
+	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+	margin-left:50px;
+	font-size:12px;
+}
+
+
+.footer-name{
+	font-size:12px;
+	font-weight:bold;
+	font:Century Gothic;
+	color:#3d5a80;
+}
+
+
+.welcome-sign {
+	font-family:"Century Gothic";
+	font-style:italic;
+}
+
+
+.intro {
+	font-family:"Century Gothic";
+	font-size:12px;
+	font-style:italic;
+	text-align:center;
+}
+
+
+.intro2 {
+	font-family:"Century Gothic";
+	font-size:14px;
+	font-style:italic;
+	text-align:center;
+}
+#description-box {
+	float:left;
+	width:650px;
+	height:300px;
+	border:solid 1px white;
+	margin-left:10px;
+	}
+	
+#description-details{
+	float:right;
+	width:300px;
+	height:300px;
+	margin-right:10px;
+	margin-bottom:15px;
+	
+	}
+
+.welcome-image
+	{
+	width:650px;
+	height:300px;
+	}
+
+
+.recipefont
+	{
+	color:#ee6c4d;
+	font-family:"Century Gothic";
+	font-size:20px;
+	font-weight:bold;
+	}
+
+
+#footer{
+	width:980px;
+	}/* CSS Document */
+
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #ee6c4d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.img-full{
+	width: 400px;
+	height: 350px;
+}
+
+.image-center {
+	text-align: center;
+}
+
+.ingredients	{
+	margin-left: 50px;
+	font-weight: bold;
+}
+
+
+.preparation	{
+	margin-left: 50px;
+}
+
+.step {font-family:"Century Gothic";
+	font-size:18px;
+	font-weight: bold;
+}
+
+.step-info {
+	font-family:"Century Gothic";
+	font-size:15px;
+}
+
+
+
+
+
+
+
+
